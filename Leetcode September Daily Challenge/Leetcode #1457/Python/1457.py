@@ -1,8 +1,8 @@
-//Traverse all paths using dfs() function.
-//Track count of digits in the path in counter list.
-//Once a leaf is detected check if path is a pseudo-palindromic one. It is true only if counter has zero or one odd element(s).
-//Time complexity = O(n), where n is a number of nodes in the tree
-//Space complexity = O(h), where h is a height of the tree
+#Traverse all paths using dfs() function.
+#Track count of digits in the path in counter list.
+#Once a leaf is detected check if path is a pseudo-palindromic one. It is true only if counter has zero or one odd element(s).
+#Time complexity = O(n), where n is a number of nodes in the tree
+#Space complexity = O(h), where h is a height of the tree
 class Solution:
     def pseudoPalindromicPaths (self, root: Optional[TreeNode]) -> int:
         def dfs(node: Optional[TreeNode], counter: list[int]) -> int:
